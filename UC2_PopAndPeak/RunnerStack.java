@@ -1,0 +1,21 @@
+package UC2_PopAndPeak;
+
+public class RunnerStack {
+
+	public static void main(String[] args) {
+		MyStack<Integer> List = new MyStack<Integer>();
+		List.push(70);
+		List.push(30);
+		List.push(56);
+		List.showRunner();
+
+        System.out.println();
+
+        List.peek();
+        List.pop();
+        List.pop();
+        List.pop();
+
+        List.showRunner();
+	}
+}
